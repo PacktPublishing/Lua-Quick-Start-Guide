@@ -47,9 +47,9 @@ With the following software and hardware list you can run all code files present
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/LuaQuickStartGuide_ColorImages.pdf).
 
 ### Related products
-* Embedded Systems Architecture [[Packt]](https://www.packtpub.com/application-development/embedded-systems-architecture?utm_source=github&utm_medium=repository&utm_campaign=9781788832502) [[Amazon]](https://www.amazon.com/dp/1-788-83250-7)
+* Embedded Systems Architecture [[Packt]](https://www.packtpub.com/application-development/embedded-systems-architecture?utm_source=github&utm_medium=repository&utm_campaign=9781788832502) [[Amazon]](https://www.amazon.com/dp/1788832507)
 
-* Embedded Linux Development Using Yocto Project Cookbook - Second Edition [[Packt]](https://www.packtpub.com/virtualization-and-cloud/embedded-linux-development-using-yocto-project-cookbook-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788399210) [[Amazon]](https://www.amazon.com/dp/1-788-39921-8)
+* Embedded Linux Development Using Yocto Project Cookbook - Second Edition [[Packt]](https://www.packtpub.com/virtualization-and-cloud/embedded-linux-development-using-yocto-project-cookbook-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788399210) [[Amazon]](https://www.amazon.com/dp/1788399218)
 
 ## Get to Know the Author
 **Gabor Szauer**
