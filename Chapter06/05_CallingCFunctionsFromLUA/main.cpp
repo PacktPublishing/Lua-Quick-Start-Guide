@@ -31,7 +31,7 @@ int main(int argc, char** argv) {
 	lua_pushcfunction(L, LuaVec3Magnitude);
 	lua_setglobal(L, "Vec3Magnitude");
 
-	// Load the file "printinfo.lua"
+	// Load the file "callcfunc.lua"
 	int result = luaL_loadfile(L, "callcfunc.lua");
 	if (result != 0) {
 		printf("Could not load callcfunc.lua, exiting");
