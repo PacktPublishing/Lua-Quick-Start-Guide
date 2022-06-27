@@ -48,7 +48,7 @@ int main(int argc, char** argv) {
 	lua_State *L = luaL_newstate();
 	luaL_openlibs(L);
 
-	// Load the file "printinfo.lua"
+	// Load the file "findindex.lua"
 	int result = luaL_loadfile(L, "findindex.lua");
 	if (result != 0) {
 		printf("Could not load findindex.lua, exiting");
@@ -59,7 +59,7 @@ int main(int argc, char** argv) {
 	result = lua_pcall(L, 0, 0, 0);
 	if (result != 0) {
 		const char* error = lua_tostring(L, -1);
-		printf("Error loading hero.lua, exiting.\n");
+		printf("Error loading findindex.lua, exiting.\n");
 		printf("Error message %s", error);
 		lua_close(L);
 		return -1;

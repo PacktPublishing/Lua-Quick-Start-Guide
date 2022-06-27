@@ -21,7 +21,7 @@ int main(int argc, char** argv) {
 		// Load the file "printinfo.lua"
 		int result = luaL_loadfile(L, "printinfo.lua");
 	if (result != 0) {
-		printf("Could not load hero.lua, exiting");
+		printf("Could not load printinfo.lua, exiting");
 		lua_close(L);
 		return -1;
 	}
@@ -30,7 +30,7 @@ int main(int argc, char** argv) {
 	result = lua_pcall(L, 0, 0, 0);
 	if (result != 0) {
 		const char* error = lua_tostring(L, -1);
-		printf("Error loading hero.lua, exiting.\n");
+		printf("Error loading printinfo.lua, exiting.\n");
 		printf("Error message %s", error);
 		lua_close(L);
 		return -1;
