@@ -36,7 +36,7 @@ player2.position.y = 10
 print ("Player 1, position: (" .. player1.position.x .. ", " .. player1.position.y .. ", " .. player1.position.z .. ")")
 print ("Player 2, position: (" .. player2.position.x .. ", " .. player2.position.y .. ", " .. player2.position.z .. ")")
 
-if player1.position == player2.positon then
+if player1.position == player2.position then
 	print ("Player 1 and 2 have the same position reference");
 else
 	print ("Player 1 and 2 have unique positon tables");
