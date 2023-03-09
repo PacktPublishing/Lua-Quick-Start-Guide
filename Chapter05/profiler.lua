@@ -38,14 +38,14 @@ profiler.private_hook = function(event)
 		profiler.names[f] = info.name
 		profiler.counts[f] = 1
 		profiler.times[f] = 0.0
-		profiler.timers[f] = os.clock()
+		profiler.timers[f] = os.time()
 	elseif profiler.names[f] ~= nil then
 		if event == "call" then
 			profiler.counts[f] = profiler.counts[f] + 1
-			profiler.timers[f] = os.clock()
+			profiler.timers[f] = os.time()
 		elseif event == "return" then
 			local t = profiler.times[f];
-			local d = os.difftime(profiler.timers[f],os.clock())
+			local d = os.difftime(profiler.timers[f],os.time())
 			profiler.times[f] = t + d
 		end
 	end
